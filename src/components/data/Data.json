@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "type": "closed",
+        "url": "/wp-content/uploads/2021/08/fire-closed.png",
+        "color": "red",
+        "done": true
+    },
+    {
+        "id": 1,
+        "type": "closed",
+        "url": "/wp-content/uploads/2021/08/space-closed.png",
+        "color": "purple",
+        "done": false
+    },
+    {
+        "id": 2,
+        "type": "closed",
+        "url": "/wp-content/uploads/2021/08/wind-closed.png",
+        "color": "light-blue",
+        "done": false
+    },
+    {
+        "id": 3,
+        "type": "closed",
+        "url": "/wp-content/uploads/2021/08/water-closed.png",
+        "color": "blue",
+        "done": false
+    },
+    {
+        "id": 4,
+        "type": "closed",
+        "url": "/wp-content/uploads/2021/08/earth-closed.png",
+        "color": "brown",
+        "done": false
+    },
+    {
+        "id": 5,
+        "type": "opened",
+        "url": "/wp-content/uploads/2021/08/fire-opened.png",
+        "color": "red",
+        "done": true
+    },
+    {
+        "id": 6,
+        "type": "opened",
+        "url": "/wp-content/uploads/2021/08/space-opened.png",
+        "color": "purple",
+        "done": false
+    },
+    {
+        "id": 7,
+        "type": "opened",
+        "url": "/wp-content/uploads/2021/08/wind-opened.png",
+        "color": "light-blue",
+        "done": false
+    },
+    {
+        "id": 8,
+        "type": "opened",
+        "url": "/wp-content/uploads/2021/08/water-opened.png",
+        "color": "blue",
+        "done": false
+    },
+    {
+        "id": 9,
+        "type": "opened",
+        "url": "/wp-content/uploads/2021/08/earth-opened.png",
+        "color": "brown",
+        "done": false
+    }
+]

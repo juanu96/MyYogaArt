@@ -1,0 +1,153 @@
+// Front end styles here
+
+.wp-admin {
+  // here you can add your admin dashboard styles
+  input {
+    font-size: inherit;
+  }
+}
+
+.flexshade {
+  display: flex;
+}
+
+.shadow {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 50px;
+  position: absolute;
+  margin: auto;
+  top: 2vw;
+  left: 8vw;
+  background-color: white;
+}
+
+.text-shadow {
+  font-family: "Poppins";
+  font-weight: bold;
+  margin-right: 25px;
+  font-size: 18px;
+}
+
+.carpetbg {
+  background-image: url(/wp-content/uploads/2021/06/background.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+}
+
+.itemscarpet {
+  margin: 30px 0px;
+}
+
+.itemscarpet:hover {
+  cursor: pointer;
+}
+
+.showcarpet {
+  margin-right: 10%;
+  margin-left: -10%;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0px 7px;
+}
+
+.red {
+  background-color: #BD7052;
+}
+
+.purple {
+  background-color: #9468A1;
+}
+
+.light-blue {
+  background-color: #9A9BC1;
+}
+
+.blue {
+  background-color: #313952;
+}
+
+.brown {
+  background-color: #8A715D;
+}
+
+@media only screen and (min-width: 769px) {
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .childitems {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .dot {
+    height: 15px !important;
+    width: 15px !important;
+  }
+
+  .text-shadow {
+    font-size: 14px;
+    margin-right: 0px;
+  }
+
+  .shadow{
+    left: 0;
+    right: 0;
+    top:0 !important;
+    padding: 5px 15px !important;
+    position: initial !important;
+  }
+
+  .showcarpet{
+    margin: 0px !important
+  }
+
+  .carpetbg{
+    margin-top: 40px;
+  }
+
+  .itemscarpet img{
+    padding: 5px;
+  }
+}
+
+.dot-false{
+  opacity: 0.3;
+  transform: scale(0.7);
+  transition: all 0.5s ease-in-out;
+}
+
+.dot-true{
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+
+.principal-img{
+  min-width: 100% !important;
+  //height: 20vw !important;
+}
+
+.hide-img{
+  display: none;
+}
+
+.itemscarpet img{
+  max-height: 139px !important;
+}
+
+.childitems .itemscarpet{
+width: 194px;
+    text-align: right;
+}
